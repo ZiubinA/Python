@@ -1,0 +1,7 @@
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\bin\Debug\programingForMysellf.exe.config
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\bin\Debug\programingForMysellf.exe
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\bin\Debug\programingForMysellf.pdb
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\obj\Debug\programingForMysellf.csproj.AssemblyReference.cache
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\obj\Debug\programingForMysellf.csproj.CoreCompileInputs.cache
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\obj\Debug\programingForMysellf.exe
+D:\ProgramingForMyself\programingForMysellf\programingForMysellf\obj\Debug\programingForMysellf.pdb
