@@ -1,0 +1,26 @@
+id,name,department,salary,years_experience,performance_score
+101,Alice Smith,Engineering,95000,5,4.5
+102,Bob Jones,Sales,65000,2,3.8
+103,Charlie Brown,Marketing,70000,4,4.2
+104,Diana Prince,Engineering,120000,8,4.9
+105,Evan Wright,HR,55000,3,3.5
+106,Fiona Green,Sales,62000,1,3.0
+107,George Hall,Engineering,88000,4,4.1
+108,Hannah Lee,Marketing,72000,5,4.4
+109,Ivan Rogers,Engineering,110000,10,4.8
+110,Jenny Kim,HR,60000,6,4.0
+111,Kevin Hart,Sales,58000,2,2.5
+112,Laura Croft,Engineering,92000,5,4.6
+113,Mike Ross,Legal,105000,7,4.3
+114,Nancy Drew,Marketing,68000,3,3.9
+115,Oscar Wild,Sales,95000,12,4.7
+116,Paul Rudd,HR,52000,1,3.2
+117,Quinn Fabray,Legal,98000,5,4.1
+118,Rachel Zane,Legal,60000,2,3.8
+119,Steve Rogers,Engineering,130000,15,5.0
+120,Tony Stark,Engineering,250000,20,5.0
+121,Ursula White,Marketing,45000,1,2.1
+122,Victor Stone,Engineering,85000,3,3.9
+123,Wanda Maximoff,HR,59000,4,4.2
+124,Xander Cage,Sales,75000,6,3.6
+125,Yara Grey,Marketing,71000,5,4.3

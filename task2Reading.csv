@@ -1,0 +1,4 @@
+INFO: User logged in,
+ERROR: DB Connection Fail,
+WARNING: Low memory,
+ERROR: Timeout 500ms
