@@ -42,4 +42,25 @@ underpaid_stuf = df_copy[(df_copy["salary"] < 75000) & (df_copy["years_experienc
 underpaid_stuf_names = underpaid_stuf["name"]
 print(underpaid_stuf_names)
 
-   
+
+experts = df_copy[(df_copy["salary"] > 100000) | (df_copy["years_experience"] > 10)]
+print("\n experts\n", experts)
+
+engineers = df_copy[(df_copy["department"] == "Engineering")]
+print("\n sum of the enfineers salaries\n", engineers["salary"].sum())
+
+departmentHrMark = ["HR","Marketing"]
+HrMark = df_copy[df_copy["department"].isin(departmentHrMark)]
+HrMark = HrMark[HrMark["salary"] > 65000]
+print("\n Hr Marketing\n", HrMark)
+
+newHire = df_copy[df_copy["years_experience"] < 2]
+print("\n average performance of new hire\n", newHire["years_experience"].mean())
+
+
+salesDep = df_copy[df_copy["department"] == "Sales"]
+hrDep = df_copy[df_copy["department"] == "HR"]
+
+maxSales = salesDep["salary"].max()
+maxHR = hrDep["salary"].max()
+print("\n difference betwean Sales and HR department salary\n", maxSales-maxHR)
