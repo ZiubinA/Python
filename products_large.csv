@@ -1,0 +1,24 @@
+product,price,stock,category
+Laptop,1200.50,nan,Electronics
+Mouse,,100,Accessories
+Monitor,nan,15,Electronics
+Laptop,1200.50,nan,Electronics
+,50.00,5,Accessories
+Laptop,1200.50,nan,Electronics
+Phone,$800,20,Electronics
+Laptop,1200.50,nan,Electronics
+Tablet,nan,nan,Electronics
+Headphones,,nan,Accessories
+Webcam,,30,Electronics
+USB-C Cable,12.50,,Accessories
+Smartwatch,$250.00,40,Electronics
+,110.00,35,Accessories
+Gaming Console,$500.00,nan,Electronics
+Wireless Charger,,75,Accessories
+Bluetooth Speaker,90.00,,Electronics
+Laptop Stand,$45.00,60,Accessories
+Printer,"150",12,Electronics
+Graphics Card,nan,5,Electronics
+Screen Protector,10.00,nan,Accessories
+Router,"120.00",20,Electronics
+Microphone,130.00,,Electronics
