@@ -1,4 +1,5 @@
 import copy
+import traceback
 
 class C:
     def __init__(self, value):
@@ -148,3 +149,39 @@ try:
     print(p.age)
 except AttributeError:
     print("age deleted (AttributeError)")
+
+class MyResource:
+    def __init__(self, name):
+        self.name = name
+
+    def __enter__(self):
+        print(f"Open resurce {self.name}")
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print(f"closing {self.name}")
+
+        if exc_type:
+            print(f"error in {exc_val}")
+
+            traceback.print_tb(exc_tb)
+            return True
+    
+    def do_something(self):
+        print(f"{self.name} is working")
+
+print("test 1 normal work")
+with MyResource("Database_1") as res:
+    res.do_something()
+    print("code inside block ended")
+
+print("\n" + "-"*40 + "\n")
+
+print("test 2 Mistake inside block")
+with MyResource("Database_2") as res:
+    res.do_something()
+    print("we will divide by 0 now")
+    x = 1 / 0 
+    print("this wount be printed")
+
+print("\nProgram working")
